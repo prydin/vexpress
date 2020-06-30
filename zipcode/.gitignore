@@ -1,6 +1,6 @@
 HELP.md
 .gradle
-**/build/
+build/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**
 !**/src/test/**
@@ -29,9 +29,10 @@ out/
 /.nb-gradle/
 
 ### VS Code ###
-**/.vscode/
+.vscode/
 
 ### Gradle ###
-**/.gradle/
+.gradle/
 
 ### IntelliJ ###
+.idea/
