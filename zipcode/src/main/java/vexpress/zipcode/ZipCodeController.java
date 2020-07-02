@@ -41,7 +41,7 @@ public class ZipCodeController {
     return z.size() == 1 ? z.get(0) : null;
   }
 
-  private static double distance(
+  static double distance(
       @RequestParam final double lat1,
       @RequestParam final double lon1,
       @RequestParam final double lat2,
@@ -50,9 +50,9 @@ public class ZipCodeController {
     final double y1 = Math.toRadians(lon1);
     final double x2 = Math.toRadians(lat2);
     final double y2 = Math.toRadians(lon2);
-    double angle1 =
+    double theta =
         Math.acos(Math.sin(x1) * Math.sin(x2) + Math.cos(x1) * Math.cos(x2) * Math.cos(y1 - y2));
-    angle1 = Math.toDegrees(angle1);
-    return (60 * angle1) / 1.15078;
+    theta = Math.toDegrees(theta);
+    return (60 * theta) / 1.15078;
   }
 }
