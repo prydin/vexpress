@@ -2,39 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f42fbe3c-aa7d-4ef5-85e3-cac7f496d8cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../pricing/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pricing/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pricing/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pricing/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pricing/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pricing/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pricing/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pricing/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pricing/src/main/java/vexpress/pricing/PricingApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pricing/src/main/java/vexpress/pricing/PricingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vexpress/zipcode/DistanceResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vexpress/zipcode/Loader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vexpress/zipcode/ZipCodeApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vexpress/zipcode/ZipCodeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vexpress/zipcode/ZipCodeDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vexpress/zipcode/ZipCodeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vexpress/zipcode/ZipNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/sql/zipcodes.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/vexpress/zipcode/TestZipCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="DefaultGradleProjectSettings">
-    <option name="isMigrated" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -49,7 +24,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1e0gkfmusXh2axLVrAAUdtKgpFy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
