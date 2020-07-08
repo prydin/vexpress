@@ -2,29 +2,11 @@
 -- PostgreSQL database dump
 --
 
--- Dumped from database version 12.0
--- Dumped by pg_dump version 12.0
-
-SET statement_timeout = 0;
-SET lock_timeout = 0;
-SET idle_in_transaction_session_timeout = 0;
-SET client_encoding = 'UTF8';
-SET standard_conforming_strings = on;
-SELECT pg_catalog.set_config('search_path', '', false);
-SET check_function_bodies = false;
-SET xmloption = content;
-SET client_min_messages = warning;
-SET row_security = off;
-
-SET default_tablespace = '';
-
-SET default_table_access_method = heap;
-
 --
 -- Name: zipcodes; Type: TABLE; Schema: public; Owner: prydin
 --
 
-CREATE TABLE public.zipcodes (
+create TABLE zipcodes (
     zip integer NOT NULL,
     locality character varying(200),
     state character varying(2),
@@ -33,13 +15,13 @@ CREATE TABLE public.zipcodes (
 );
 
 
-ALTER TABLE public.zipcodes OWNER TO prydin;
+alter table zipcodes OWNER TO prydin;
 
 --
 -- Data for Name: zipcodes; Type: TABLE DATA; Schema: public; Owner: prydin
 --
 
-COPY public.zipcodes (zip, locality, state, lat, long) FROM stdin;
+COPY zipcodes (zip, locality, state, lat, long) FROM stdin;
 601	Adjuntas	PR	18.18004000	-66.75218000
 602	Aguada	PR	18.36073000	-67.17517000
 603	Aguadilla	PR	18.45439000	-67.12202000
@@ -8294,7 +8276,7 @@ COPY public.zipcodes (zip, locality, state, lat, long) FROM stdin;
 26570	Fairview	WV	39.64156000	-80.22827000
 26571	Farmington	WV	39.51904000	-80.25538000
 26572	Four States	WV	39.48520000	-80.30770000
-26574	Grant Town	WV	39.58108000	-80.18659000
+26574	grant Town	WV	39.58108000	-80.18659000
 26575	Hundred	WV	39.68203000	-80.45010000
 26576	Idamay	WV	39.49304000	-80.25715000
 26581	Littleton	WV	39.66510000	-80.56753000
@@ -10688,7 +10670,7 @@ COPY public.zipcodes (zip, locality, state, lat, long) FROM stdin;
 32937	Satellite Beach	FL	28.17832000	-80.60427000
 32940	Melbourne	FL	28.21129000	-80.78750000
 32948	Fellsmere	FL	27.88942000	-80.73347000
-32949	Grant	FL	27.92332000	-80.55069000
+32949	grant	FL	27.92332000	-80.55069000
 32950	Malabar	FL	27.97597000	-80.57877000
 32951	Melbourne Beach	FL	27.95947000	-80.51499000
 32952	Merritt Island	FL	28.30017000	-80.66339000
@@ -11538,7 +11520,7 @@ COPY public.zipcodes (zip, locality, state, lat, long) FROM stdin;
 35744	Dutton	AL	34.61216000	-85.90672000
 35745	Estillfork	AL	34.94092000	-86.20011000
 35746	Fackler	AL	34.82902000	-85.99594000
-35747	Grant	AL	34.49446000	-86.30739000
+35747	grant	AL	34.49446000	-86.30739000
 35748	Gurley	AL	34.72195000	-86.38700000
 35749	Harvest	AL	34.82432000	-86.75333000
 35750	Hazel Green	AL	34.95095000	-86.59506000
@@ -16415,7 +16397,7 @@ COPY public.zipcodes (zip, locality, state, lat, long) FROM stdin;
 49323	Dorr	MI	42.72534000	-85.78724000
 49325	Freeport	MI	42.76051000	-85.29816000
 49326	Gowen	MI	43.24982000	-85.32060000
-49327	Grant	MI	43.33539000	-85.84617000
+49327	grant	MI	43.33539000	-85.84617000
 49328	Hopkins	MI	42.63167000	-85.75920000
 49329	Howard City	MI	43.40630000	-85.48344000
 49330	Kent City	MI	43.24504000	-85.73739000
@@ -17152,7 +17134,7 @@ COPY public.zipcodes (zip, locality, state, lat, long) FROM stdin;
 50843	Cumberland	IA	41.23973000	-94.88901000
 50845	Diagonal	IA	40.81871000	-94.35237000
 50846	Fontanelle	IA	41.30962000	-94.56974000
-50847	Grant	IA	41.14112000	-94.98165000
+50847	grant	IA	41.14112000	-94.98165000
 50848	Gravity	IA	40.78371000	-94.76523000
 50849	Greenfield	IA	41.30327000	-94.39943000
 50851	Lenox	IA	40.90321000	-94.53761000
@@ -20812,7 +20794,7 @@ COPY public.zipcodes (zip, locality, state, lat, long) FROM stdin;
 60935	Essex	IL	41.17296000	-88.17609000
 60936	Gibson City	IL	40.46679000	-88.35707000
 60938	Gilman	IL	40.77328000	-87.98865000
-60940	Grant Park	IL	41.25060000	-87.64282000
+60940	grant Park	IL	41.25060000	-87.64282000
 60941	Herscher	IL	41.04201000	-88.08210000
 60942	Hoopeston	IL	40.46563000	-87.66092000
 60945	Iroquois	IL	40.82805000	-87.58414000
@@ -22339,7 +22321,7 @@ COPY public.zipcodes (zip, locality, state, lat, long) FROM stdin;
 64453	Gentry	MO	40.34502000	-94.48017000
 64454	Gower	MO	39.60276000	-94.59641000
 64455	Graham	MO	40.18490000	-95.00978000
-64456	Grant City	MO	40.48962000	-94.38705000
+64456	grant City	MO	40.48962000	-94.38705000
 64457	Guilford	MO	40.16101000	-94.68561000
 64458	Hatfield	MO	40.52077000	-94.14305000
 64459	Helena	MO	39.92948000	-94.64646000
@@ -24061,7 +24043,7 @@ COPY public.zipcodes (zip, locality, state, lat, long) FROM stdin;
 69134	Elsie	NE	40.83787000	-101.36428000
 69135	Elsmere	NE	42.24019000	-100.25949000
 69138	Gothenburg	NE	40.99859000	-100.17417000
-69140	Grant	NE	40.85081000	-101.78043000
+69140	grant	NE	40.85081000	-101.78043000
 69141	Gurley	NE	41.30645000	-102.95493000
 69142	Halsey	NE	41.91572000	-100.31720000
 69143	Hershey	NE	41.21012000	-101.03920000
@@ -24340,7 +24322,7 @@ COPY public.zipcodes (zip, locality, state, lat, long) FROM stdin;
 70639	Evans	LA	30.98475000	-93.49102000
 70640	Fenton	LA	30.37078000	-92.90717000
 70643	Grand Chenier	LA	29.79209000	-92.78968000
-70644	Grant	LA	30.79160000	-92.94369000
+70644	grant	LA	30.79160000	-92.94369000
 70645	Hackberry	LA	29.96153000	-93.40869000
 70646	Hayes	LA	30.09869000	-92.92143000
 70647	Iowa	LA	30.25707000	-93.01870000
@@ -25789,7 +25771,7 @@ COPY public.zipcodes (zip, locality, state, lat, long) FROM stdin;
 74734	Eagletown	OK	34.10219000	-94.54618000
 74735	Fort Towson	OK	34.08553000	-95.24949000
 74736	Garvin	OK	33.92522000	-94.98605000
-74738	Grant	OK	33.90368000	-95.44285000
+74738	grant	OK	33.90368000	-95.44285000
 74740	Haworth	OK	33.79049000	-94.59975000
 74741	Hendrix	OK	33.77922000	-96.29663000
 74743	Hugo	OK	34.00828000	-95.49417000
@@ -27954,7 +27936,7 @@ COPY public.zipcodes (zip, locality, state, lat, long) FROM stdin;
 80444	Georgetown	CO	39.63094000	-105.73747000
 80446	Granby	CO	40.17422000	-105.95253000
 80447	Grand Lake	CO	40.27251000	-105.79681000
-80448	Grant	CO	39.40800000	-105.63004000
+80448	grant	CO	39.40800000	-105.63004000
 80449	Hartsel	CO	38.98134000	-105.85574000
 80451	Hot Sulphur Springs	CO	40.09846000	-106.07320000
 80452	Idaho Springs	CO	39.70718000	-105.61392000
@@ -33146,11 +33128,6 @@ COPY public.zipcodes (zip, locality, state, lat, long) FROM stdin;
 -- Name: zipcodes zipcodes_pkey; Type: CONSTRAINT; Schema: public; Owner: prydin
 --
 
-ALTER TABLE ONLY public.zipcodes
+alter table ONLY zipcodes
     ADD CONSTRAINT zipcodes_pkey PRIMARY KEY (zip);
-
-
---
--- PostgreSQL database dump complete
---
 
