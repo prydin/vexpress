@@ -2,10 +2,6 @@
 -- PostgreSQL database dump
 --
 
---
--- Name: zipcodes; Type: TABLE; Schema: public; Owner: prydin
---
-
 create TABLE zipcodes (
     zip integer NOT NULL,
     locality character varying(200),
@@ -13,13 +9,6 @@ create TABLE zipcodes (
     lat numeric(12,8),
     long numeric(12,8)
 );
-
-
-alter table zipcodes OWNER TO prydin;
-
---
--- Data for Name: zipcodes; Type: TABLE DATA; Schema: public; Owner: prydin
---
 
 COPY zipcodes (zip, locality, state, lat, long) FROM stdin;
 601	Adjuntas	PR	18.18004000	-66.75218000
