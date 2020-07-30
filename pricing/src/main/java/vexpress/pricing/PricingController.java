@@ -12,6 +12,11 @@ import org.springframework.web.util.UriComponentsBuilder;
 public class PricingController {
   @Autowired private Config config;
 
+  @GetMapping("/healthcheck")
+  public String healthCheck() {
+    return "OK";
+  }
+
   @GetMapping("/price")
   public double getPrice(
       @RequestParam final String fromZip,
