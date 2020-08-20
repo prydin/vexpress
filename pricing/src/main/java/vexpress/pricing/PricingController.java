@@ -19,7 +19,7 @@ public class PricingController {
   }
 
   @PostMapping(value = "/price", consumes = "application/json", produces = "application/json")
-  public double getPrice(s
+  public double getPrice(
       @RequestParam final String fromZip,
       @RequestParam final String toZip,
       @RequestParam final double weight) {
