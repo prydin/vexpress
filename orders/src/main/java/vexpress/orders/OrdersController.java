@@ -15,12 +15,12 @@ public class OrdersController {
   @Autowired private Config config;
   @Autowired RabbitTemplate rabbitTemplate;
 
-  @GetMapping("/healthcheck")
+  @GetMapping(path = "/healthcheck", produces = "text/plain")
   public String healthCheck() {
     return "OK";
   }
 
-  @PostMapping(value = "/order", consumes = "application/json", produces = "application/json")
+  @PostMapping(path = "/order", consumes = "application/json", produces = "application/json")
   public OrderResponse placeOrder(@RequestBody final SchedulingRequest order)
       throws JsonProcessingException {
     order.setTrackingNumber(UUID.randomUUID().toString());
